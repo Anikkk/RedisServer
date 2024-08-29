@@ -6,7 +6,7 @@ const store = {}
 //creating TCP server
 const server = net.createServer(connection =>{
     console.log("Client connected...");
-    comsole.log("Hello");
+    comsole.log("HELLO");
     connection.on('data', data=>{
         const parser = new Parser({
             returnReply : (reply) => {
